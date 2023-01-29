@@ -1,0 +1,100 @@
+/* Headings */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+/* Body font family */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+:root {
+    --primary-violet: hsl(257, 40%, 49%);
+    --primary-soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--primary-violet);
+    background-image: url('./images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0 auto;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    max-width: 87rem;
+    min-width: 73rem;
+    overflow: hidden;
+
+}
+
+#logo img {
+    width: 12rem;
+    margin: 2.8rem 0 2.8rem 8rem;
+}
+
+main img {
+    /* width: 43vw; */
+    margin-left: 4rem;
+}
+
+#about {
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+}
+
+#about h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 2.5rem;
+    width: 450px;
+}
+
+#about p {
+    margin-top: 1.5rem;
+    margin-right: 7rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+    line-height: 1.5;
+
+}
+
+#about a {
+    background-color: #fff;
+    text-decoration: none;
+    padding: .8rem 3.8rem;
+    border-radius: 10rem;
+    color: var(--primary-violet);
+    box-shadow: 0px 0px 12px -1px rgba(0, 0, 0, 0.75);
+}
+
+#about a:hover {
+    background-color: var(--primary-soft-magenta);
+    color: #fff;
+}
+
+#sociam-media {
+    margin-right: 7rem;
+}
+
+#sociam-media a {
+    float: right;
+    color: #fff;
+}
+
+#sociam-media a:hover {
+    color: var(--primary-soft-magenta);
+}
